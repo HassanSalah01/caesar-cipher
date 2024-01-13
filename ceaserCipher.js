@@ -35,26 +35,5 @@ const encrypt = (char) => {
 module.exports = {
   encrypt,
 };
-// console.log(s("z"));
-// console.log(s("2"));
-// const main = (word) => {};
-
-// const charMainType = (char) => {
-//   if (isLowerCase(char)) {
-//     return char;
-//   } else {
-//     return char.toUperCase();
-//   }
-// };
-
-// const alpha = "A";
-// console.log(alpha.charCodeAt(0));
-// const alphaLength = alpha.length - 4;
-
-// console.log((8 % alpha.length) + 4);
-
-// for (let i = 65; i < 123; i++) {
-//   console.log(`i : ${i},Value = ${IsAlphaChar(i)}`);
-// }
 
 
