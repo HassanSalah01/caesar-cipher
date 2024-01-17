@@ -1,4 +1,4 @@
-# caesar-cipher
+https://www.instagram.com/p/CsiT7NngWFL/# caesar-cipher
 
 # Character Encryption Module
 
@@ -86,6 +86,8 @@ const encryptedChar = encryption.encrypt('a'); // Returns 'e'
 - The encryption algorithm is relatively simple and can be easily broken. It is not intended for secure encryption purposes.
 - The module only handles single characters. To encrypt entire strings, you'll need to iterate over each character and apply the `encrypt` function.
 
+```
+
 # CeaserCipher as A Class
 
 ## Description
@@ -97,12 +99,15 @@ This class implements a simple Caesar cipher for encrypting text. It shifts each
 1.  **Import the class:**
 
 ```
+
 const { CeaserCipher } = require("./path/to/CeaserCipher");
+
 ```
 
 2.  **Import the class**:
 
 ```
+
 const { CeaserCipher } = require("./path/to/CeaserCipher");
 
 ```
@@ -110,6 +115,7 @@ const { CeaserCipher } = require("./path/to/CeaserCipher");
 3.  **Create an instance**:
 
 ```
+
 const cipher = new CeaserCipher(inputPath, outputPath);
 
 ```
@@ -120,6 +126,7 @@ const cipher = new CeaserCipher(inputPath, outputPath);
 4.  **Encrypt text ( if inputPath not provided)**:
 
 ```
+
 const encryptedText = cipher.encryptText(textToEncrypt);
 
 ```
@@ -127,6 +134,7 @@ const encryptedText = cipher.encryptText(textToEncrypt);
 5.  **Write encrypted text to file (if outputPath provided):**
 
 ```
+
 cipher.writeEncryptedTextToFile();
 
 ```
@@ -152,6 +160,7 @@ cipher.writeEncryptedTextToFile();
 JavaScript
 
 ```
+
 const cipher = new CeaserCipher("input.txt", "output.txt");
 // Text is automatically read and encrypted from input.txt to output.txt
 
@@ -161,3 +170,4 @@ const cipher = new CeaserCipher("input.txt", "output.txt");
 
 - The default encryption shift is 4 positions.
 - This class is intended for educational purposes and is not suitable for secure encryption.
+```
